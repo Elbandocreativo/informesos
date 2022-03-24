@@ -1,0 +1,708 @@
+html{
+    font-family: 'Dosis', sans-serif;
+scroll-behavior: smooth;
+
+
+}
+.fondo{
+    background-image: url(../Img/FondoHome.jpg);
+    width: 100%;
+    height: 100%;
+    
+}
+.logo{
+    margin: auto 45%;
+    max-width: 20%;
+    padding: 20px;
+  
+}
+.cont-home{
+    display: flex;
+    justify-content: center;
+    padding: 2.5%;
+   
+}
+a{
+    text-decoration: none;
+}
+ul {
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+    
+    
+  }/* CSS menu Colores*/
+.nuestra{
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      margin: 5px;
+      background-color: #CB3660;
+      text-align: center;
+      height: 60px;
+      width: 160;          
+}
+.valor{
+     justify-content: center;
+      display: flex;
+      align-items: center;
+      margin: 5px;
+      background-color: #3DC8CF;
+      text-align: center;
+      height: 60px;
+      width: 150;          
+}
+.bienestar{
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      margin: 5px;   
+      background-color: #CD502F;
+      text-align: center;
+      height: 60px;
+      width: 160;          
+}
+.excelencia{
+    justify-content: center;
+      display: flex;
+      align-items: center;
+      margin: 5px;   
+      background-color: #DB6E90;
+      text-align: center;
+      height: 60px;
+      width: 160;          
+}
+.vidas{
+    justify-content: center;
+      display: flex;
+      align-items: center;
+      margin: 5px;   
+      background-color: #E29746;
+      text-align: center;
+      height: 60px;
+      width: 160;          
+}
+.recursos{
+    justify-content: center;
+      display: flex;
+      align-items: center;
+      margin: 5px;   
+      background-color: #3DC8CF;
+      text-align: center;
+      height: 60px;
+      width: 160;          
+}
+
+.navbar{
+    text-decoration: none;
+    margin: -80px 0;
+    padding: 30px 0;
+    position: fixed;
+    width: 100%;
+    transition: all 0.3s ease;
+  
+}
+
+.navbar .menu button{
+    border: none;  
+    border-radius: 0 0 10px 10px;
+    
+    
+}
+.navbar a{
+ color: #fff;
+ font-size: 12px;
+ 
+}
+
+.navbar  .nuestra:hover{
+    border: solid 2px #CB3660;
+    height: 60px;
+    width: 160px;
+    background-color: #094898;
+}
+.navbar .menu  .valor:hover{
+    border: solid 2px #3DC8CF;
+    height: 60;
+    width: 160px;
+    color: #3DC8CF;
+    background-color: #094898;
+}
+.navbar .menu  .bienestar:hover{
+    border: solid 2px #CB3660;
+    height: 60px;
+    width: 160px;
+    color: #CD502F;
+    background-color: #094898;
+}
+.navbar .menu  .excelencia:hover{
+    border: solid 2px #DB6E90;
+    height: 60px;
+    width: 160px;
+    color: #DB6E90;
+    background-color: #094898;
+}
+.navbar .menu  .vidas:hover{
+    border: solid 2px #E29746;
+    height: 60px;
+    width: 160px;
+    color: #E29746;
+    background-color: #094898;
+}
+.navbar .menu  .recursos:hover{
+    border: solid 2px #3DC8CF;
+    height: 60px;
+    width: 160px;
+    color: #3DC8CF;
+    background-color: #094898;
+}
+
+/* Nuestra Empresa*/
+
+.FondoNuestra{
+    background-image: url(../Img/fondoNuestra.png);
+    height: 100%;
+    width: 100%;
+}
+
+
+.navNuestra{
+    display: flex;
+    justify-content:center;
+    text-decoration: none;
+    padding: 30px 0;
+    width: 100%;
+    transition: all 0.3s ease;
+  
+}
+
+.navNuestra .menu li{
+  
+    border-radius: 0 0 10px 10px;
+    
+    
+}
+.logoNue{
+    margin: 20px 0;
+}
+.navNuestra .menu li a{
+    color: #fff;
+    font-size: 12px;
+    
+   }
+
+
+.navNuestra   .nuestra:hover{
+    border: solid 2px #CB3660;
+    height: 60px;
+    width: 160px;
+    color: #CB3660;
+    background-color: #094898;
+}
+.navNuestra .menu  .valor:hover{
+    border: solid 2px #3DC8CF;
+    height: 60;
+    width: 160px;
+    color: #3DC8CF;
+    background-color: #094898;
+}
+.navNuestra .menu  .bienestar:hover{
+    border: solid 2px #CB3660;
+    height: 60px;
+    width: 160px;
+    color: #CD502F;
+    background-color: #094898;
+}
+.navNuestra .menu  .excelencia:hover{
+    border: solid 2px #DB6E90;
+    height: 60px;
+    width: 160px;
+    color: #DB6E90;
+    background-color: #094898;
+}
+.navNuestra .menu  .vidas:hover{
+    border: solid 2px #E29746;
+    height: 60px;
+    width: 160px;
+    color: #E29746;
+    background-color: #094898;
+}
+.navNuestra .menu  .recursos:hover{
+    border: solid 2px #3DC8CF;
+    height: 60px;
+    width: 160px;
+    color: #3DC8CF;
+    background-color: #094898;
+}
+
+
+
+
+.imaBrazo{
+    margin: 100px -200px;
+    background-image: url(../Img/imgBraNuestra.png);
+    height: 900px;
+    width: 1000px;
+    background-repeat: no-repeat;
+
+
+}
+.texNuestra{
+  position: absolute;
+   width: 350;
+   height: 200px;
+   margin: -50px 40%;
+}
+
+.imaDoc{
+    
+    margin: 150px 150px;
+    width: 750px;
+    height: 700px;
+
+} 
+.conteNuesta{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin: -50px 0;
+}
+
+
+.alineacion{
+   
+    display: grid;
+    
+    
+}
+
+
+.Textonuestra{
+    margin: -20px 0;
+    display: grid;
+  
+    
+
+}
+
+.conteInfo{
+    display: flex ;
+    margin: 140px 100px;
+}
+
+
+.TextoConteBrazo{
+
+   margin: 45px 10px;
+   font-size:25px;
+    color: #094898;
+}
+.margenIcon{
+    margin: 22px 0;
+} 
+
+
+/*video =------------------- */
+.FondoNuestraVideo{
+    background-image: url(../Img/FondoVideo.png);
+    max-height: 110%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.contenedorVideoComp{
+    display: flex;
+    max-height: 1000px;
+    height: 850px;
+    object-fit:cover ;
+    margin: -30 0;
+    
+  
+}
+.conteVideo{
+    position: relative;
+    margin: 6% 14%;
+    display: grid;
+    height: 50px;
+}
+.conteVideoDos{
+  
+    margin: -2% -18.3%;
+ height: 87px;
+
+
+}
+.texVideo{
+    text-align: justify;
+    margin: -110px 120px;
+    width: 700px;
+    font-size: 20px;
+    color: #094898;
+}
+.fondoVideo{
+    height: 850px;
+    width: 1250px;
+    margin: auto;
+}
+.ima1{
+    height: 280;
+    width: 380px;
+    margin: -40 0;
+}
+.ima2{
+    height: 450;
+    width: 450;
+    
+}
+.Imavideo{
+  height: 500px;
+  width: 700px;
+  margin: -650px 120px;
+}
+
+
+
+/*composicion accionaria =------------------- */
+
+.contenedorComp{
+    display: flex;
+    height: 790px;
+    object-fit: cover;  
+}
+.fondocontenido{
+    margin: -90px -20%;
+    height: 850px;
+    width: 1300px;
+}
+.conteFondo{
+    margin: -300px -170px;
+}
+
+.separacion{
+    margin: 0 40px;
+}
+
+
+/*Valor=------------------- */
+
+
+.fondoValor{
+    background-image: url(../Img/FondoValor.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.imaFamimiliaValor{
+    position:relative;
+    margin: -180px 250px;  
+}
+.texValor{
+    margin: -3% 32%
+}
+.imaBrazoAzul{
+    background-image: url(../Img/fondobrazo.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 520px;
+    margin: 0 -12.3%;
+
+}
+
+.TextoValor{
+    margin: -20px 0px;
+    display: grid;
+  
+    
+
+}
+.alineacionValor{
+   
+    display: grid;
+    align-items: center;
+
+    
+    
+}
+.conteInfoValor{
+   display: flex ;
+    margin: 40px 100px; 
+}
+.conteValor{
+    display: flex;
+
+}
+
+/* Modelos soste */
+.fondoSoste{
+background-image: url(../Img/FondoValor.jpg);
+height: 100%;
+width: 100%;
+background-repeat: no-repeat;
+}
+
+.fondocontenidoSoste{
+
+margin: -20px -35%;
+height: 750px;
+width: 1100px;
+}
+
+.imaValor{
+    height: 280;
+    width: 550;
+    margin: -40px 50px;
+
+}
+.imaF{
+    margin: -30 -38;
+    height: 450;
+    width: 450;
+}
+
+/* Pilar*/
+.fondoPilar{
+    background-image: url(../Img/FondoValor.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    }
+
+
+
+
+    /*Bienestar-------*/
+
+
+
+    .FondoBienestar{
+        
+        background-image: url(../Img/Fondobien-8.png);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    .texBien{
+        position: relative;
+        margin: -2% 32%
+    }
+    .imaBraRosa{
+        background-image: url(../Img/fondobraRosa-8.png);
+       background-repeat: no-repeat;
+        width: 1000px;
+        height: 520px;
+        margin: 20px -12.3%; 
+    }
+
+
+    /*Nuestro Equipos------*/
+    
+    .fondocontenidoNuestro{
+        margin: 20 -15.5%;
+        height: 750px;
+        width: 1100px;
+    }
+
+    .imabie{
+        height: 350;
+        width: 250;
+        margin: -100 90px;
+      
+        
+        
+    }
+    .imabien2{
+        height: 500;
+        width: 500;
+        margin: 0px -90;
+    }
+
+  
+   /* Excelencia --------------- */
+
+   .fondoExcelencia{
+    background-image: url(../Img/fondoExc-8.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+   }
+
+   .imaBraExc{
+    background-image: url(../Img/brazoExc-8.png);
+    background-repeat: no-repeat;
+     width: 1000px;
+     height: 620px;
+     margin: -210 -13.4%; 
+   }
+   .texExc{
+    position: relative;
+    margin: 0% 35%
+   }
+   .conteExc{
+    display: flex ;
+    margin: 130px 100px; 
+
+   }
+   .TextoEcx{
+    margin: 50px 0;
+    display: grid;
+   
+   }
+   .TextoConteExc{
+       font-size: 22px;
+
+    margin: 23px 0;
+       color: #094898;
+
+   }
+
+.iconExc{
+    display: grid;
+    align-items: center;
+    margin: 50px 0;
+}
+.margenIconExc{
+    margin: -300 0 ;;
+}
+
+   /* Poblacion--------------- */
+
+
+.fondoPoblacion{
+    background-image: url(../Img/fondoExc-8.png);
+    max-height: 110%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+
+}
+.imaExc{
+    height: 250px;
+    width: 390px;
+    margin: -40 50px;
+
+}
+
+.imaMujer{
+    height: 450;
+    width: 450;
+    margin: 0 -90px;
+    
+}
+.fondocontenidoExc{
+    margin: -90px -24%;
+    height: 850px;
+    width: 1300px;
+
+}
+/*atencion*/
+.fondocontenidoAten{
+    margin: -90px -33%;
+    height: 850px;
+    width: 1300px;
+
+}
+
+/*Ambiente*/
+.fondoAmbiente{
+    background-image: url(../Img/fondoMedio-8.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.conteAmbiente{
+    background-image: url(../Img/fondobrazoMedio-8.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 700px;
+    margin: -10 -26%;
+}
+.imaPareja{
+    position:relative;
+    margin: -170px 370px;  
+}
+.conteAmbi{
+    display: flex ;
+    margin: 10px 130px;
+    height: 400px;
+    
+}
+.TextoConteBrazoAmb{
+
+    margin: 28px 10px;
+    font-size:25px;
+     color: #094898;
+ }
+
+.TextoAmbi{
+    margin: 0px 0;
+    display: grid;
+    height: 400px;
+}
+/*Campaña*/
+
+.fondoCam{
+    background-image: url(../Img/fondoMedio-8.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+.imaCam{
+    height: 350;
+    width: 460;
+    margin: -100 0px;
+}
+
+
+/*Recursos*/
+
+.FondoRec{
+        
+    background-image: url(../Img/fondoRec-8.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.imaBraRec{
+    background-image: url(../Img/fondobraRosa-8.png);
+   background-repeat: no-repeat;
+    width: 1000px;
+    height: 520px;
+    margin: 20px -12.5%; 
+}
+
+/*sarlaft*/
+
+.FondoBienestar{
+        
+    background-image: url(../Img/fondoRec-8.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.imaRec{
+    height: 350;
+        width: 450;
+        margin: -100 0px;
+    
+}
+
+.imaRec2{
+    height: 500;
+    width: 500;
+    margin: 0px -120;
+}
+
+.conRec{
+    margin: 20 -16.2%;
+    height: 750px;
+    width: 1100px;
+}
